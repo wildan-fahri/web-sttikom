@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>STTIKOM Insan Unggul</title>
+  </head>
+  <body>
+    <!-- header-->
+    <header class="bg-blue-900 sticky top-0 z-10">
+      <nav class="text-white w-11/12 md:container mx-auto py-4 flex justify-between items-center">
+        <a href="" class="text-3xl font-bold">STTIKOM Insan Unggul</a>
+        <ul class="menu hidden md:flex md:bg-blue-900 md:relative md:top-0 md:divide-y-0 md:w-auto">
+          <li class="px-7 py-1 hover:text-blue-500"><a href="#services">Progam Studi</a></li>
+          <li class="px-7 py-1 hover:text-blue-500"><a href="#portofolio">Galeri</a></li>
+          <li class="px-7 py-1 hover:text-blue-500"><a href="#about">Tentang Kami</a></li>
+          <li class="px-7 py-1 hover:text-blue-500 md:hover:text-white"><a href="" class="md:border-2 md:border-red-500 md:py-2 md:px-5 md:rounded-xl md:hover:bg-red-500 text-white">Daftar Sekarang!</a></li>
+        </ul>
+        <button class="hamburger-menu text-2xl md:hidden">
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-xmark hidden"></i>
+        </button>
+      </nav>
+
+      <style>
+        html {
+          scroll-behavior: smooth;
+        }
+      </style>
+    </header>
+
+    <!-- hero -->
+    <section class="relative bg-blue-900">
+      <div class="container mx-auto text-center text-white h-screen flex items-center relative z-10">
+        <div class="mx-auto w-3/4 md:w-2/4">
+          <h3 class="text-5xl font-bold text-center mb-5">Mau Jadi Programmer Unggulan? di Sini Aja!</h3>
+          <p class="text-blue-500 mb-5">Daftar sekarang di Sttikom Insan Unggul dan Dapati Benefit lainnya yang bermanfaat!</p>
+          <a href="#portofolio" class="bg-red-500 text-white py-2 px-5 rounded-xl hover:bg-red-800">Daftar Sekarang!</a>
+        </div>
+      </div>
+      <div class="absolute inset-0 z-0">
+        <img src="images/Gedung2.jpg" alt="Gedung Sttikom Image" class="object-cover w-full h-full opacity-40">
+      </div>
+    </section>
+
+    <footer class="py-5 text-center font-bold">&copy; 2024 STTIKOM Insan Unggul</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

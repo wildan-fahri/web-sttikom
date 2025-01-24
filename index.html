@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>STTIKOM Insan Unggul</title>
+  </head>
+  <body>
+    <!-- header-->
+    <header class="bg-blue-900 sticky top-0 z-10">
+      <nav class="text-white w-11/12 md:container mx-auto py-4 flex justify-between items-center">
+        <a href="" class="text-3xl font-bold">STTIKOM Insan Unggul</a>
+        <ul class="menu hidden md:flex md:bg-blue-900 md:relative md:top-0 md:divide-y-0 md:w-auto">
+          <li class="px-7 py-1 hover:text-blue-500"><a href="#services">Progam Studi</a></li>
+          <li class="px-7 py-1 hover:text-blue-500"><a href="#portofolio">Galeri</a></li>
+          <li class="px-7 py-1 hover:text-blue-500"><a href="#about">Tentang Kami</a></li>
+          <li class="px-7 py-1 hover:text-blue-500 md:hover:text-white"><a href="https://www.instagram.com/sttikom_insanunggul/" class="md:border-2 md:border-red-500 md:py-2 md:px-5 md:rounded-xl md:hover:bg-red-500 text-white">Daftar Sekarang!</a></li>
+        </ul>
+        <button class="hamburger-menu text-2xl md:hidden">
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-xmark hidden"></i>
+        </button>
+      </nav>
+
+      <style>
+        html {
+          scroll-behavior: smooth;
+        }
+      </style>
+    </header>
+
+    <!-- hero -->
+    <section class="relative bg-blue-900">
+      <div class="container mx-auto text-center text-white h-screen flex items-center relative z-10">
+        <div class="mx-auto w-3/4 md:w-2/4">
+          <h3 class="text-5xl font-bold text-center mb-5">Mau Jadi Programmer Unggulan? di Sini Aja!</h3>
+          <p class="text-blue-500 mb-5">Daftar sekarang di Sttikom Insan Unggul dan Dapati Benefit lainnya yang bermanfaat!</p>
+          <a href="https://www.instagram.com/sttikom_insanunggul/" class="bg-red-500 text-white py-2 px-5 rounded-xl hover:bg-red-800">Daftar Sekarang!</a>
+        </div>
+      </div>
+      <div class="absolute inset-0 z-0">
+        <img src="images/Gedung2.jpg" alt="Gedung Sttikom Image" class="object-cover w-full h-full opacity-40">
+      </div>
+    </section>
+
+    <!-- services -->
+    <section id="services" class="bg-blue-200 py-20">
+      <div class="w-11/12 md:container mx-auto">
+        <h3 class="text-5xl font-bold text-center mb-5">Program Studi</h3>
+        <p class="text-blue-500 text-center mb-5">beberapa jenis Program Studi yang tersedia di Kampus kami : </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- service 1-->
+          <div class="flex space-x-5 py-8 px-8 bg-white rounded-xl items-start">
+            <img src="images/jurusan/si.jpg" width="100"  />
+            <div>
+              <h4 class="text-2xl font-bold mb-5">Sistem Informasi (SI)</h4>
+              <p class="text-blue-500 mb-5">Program studi Sistem Informasi memfokuskan pada pengembangan, implementasi, dan pengelolaan sistem teknologi informasi untuk mendukung keputusan bisnis dan operasional di suatu organisasi. Mahasiswa Sistem Informasi dilatih untuk memahami bagaimana cara merancang, menganalisis, dan memanfaatkan sistem informasi untuk meningkatkan efisiensi dan efektivitas di berbagai sektor.</p>
+              <a href="" class="hover:text-blue-500">read more</a>
+            </div>
+          </div>
+
+          <!-- service 2-->
+          <div class="flex space-x-5 py-8 px-8 bg-white rounded-xl items-start">
+            <img src="images/jurusan/ti.png" width="100" />
+            <div>
+              <h4 class="text-2xl font-bold mb-5">Teknik Informatika (TI)</h4>
+              <p class="text-blue-500 mb-5">Program studi Teknik Informatika mengajarkan mahasiswa tentang dasar-dasar ilmu komputer, pemrograman, serta penerapan teknologi komputer dalam memecahkan masalah yang ada. Fokus utama dari Teknik Informatika adalah pada pengembangan perangkat lunak (software), perangkat keras (hardware), serta aplikasi teknologi lainnya untuk menciptakan solusi inovatif dalam berbagai bidang.</p>
+              <a href="" class="hover:text-blue-500">read more</a>
+            </div>
+          </div>
+
+          <!-- service 3-->
+          <div class="flex space-x-5 py-8 px-8 bg-white rounded-xl items-start">
+            <img src="images/jurusan/mi.jpg" width="100" />
+            <div>
+              <h4 class="text-2xl font-bold mb-5">Manajemen Informatika (MI)</h4>
+              <p class="text-blue-500 mb-5">Manajemen Informatika adalah program studi yang menggabungkan ilmu manajemen dan teknologi informasi. Mahasiswa program ini diajarkan untuk mengelola dan memanfaatkan teknologi informasi dalam mendukung tujuan bisnis dan organisasi. Lulusan Manajemen Informatika diharapkan mampu menjadi penghubung antara manajer bisnis dengan pengembang teknologi, memastikan teknologi informasi mendukung pengambilan keputusan strategis dalam organisasi.</p>
+              <a href="" class="hover:text-blue-500">read more</a>
+            </div>
+          </div>
+
+          <!-- service 4-->
+          <div class="flex space-x-5 py-8 px-8 bg-white rounded-xl items-start">
+            <img src="images/jurusan/ka.png" width="100" />
+            <div>
+              <h4 class="text-2xl font-bold mb-5">Komputerisasi Akutansi (KA)</h4>
+              <p class="text-blue-500 mb-5">Komputerisasi Akuntansi adalah program studi yang mengajarkan bagaimana memanfaatkan perangkat lunak dan teknologi informasi untuk mengelola data keuangan dan akuntansi. Mahasiswa program ini belajar untuk mengelola sistem akuntansi berbasis komputer yang efektif dan efisien, serta dapat menganalisis laporan keuangan menggunakan teknologi terbaru untuk mendukung keputusan keuangan yang lebih akurat dan tepat waktu.</p>
+              <a href="" class="hover:text-blue-500">read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- galeri -->
+    <section id="portofolio" class="py-20 bg-white">
+      <h3 class="text-5xl font-bold text-center mb-5">Galeri</h3>
+      <p class="text-blue-500 mb-5 text-center">Beberapa foto galeri kampus kami : </p>
+      <div class="grid grid-cols-2 md:grid-cols-4 w-11/12 md:container mx-auto gap-6">
+        <!-- galeri 1-->
+        <div class="shadow-xl">
+          <a href="">
+            <img src="images/galeri/galeri1.jpg" class="w-full" />
+            <div class="py-3 px-5">
+              <h4 class="text-center font-bold">Galeri 1</h4>
+            </div>
+          </a>
+        </div>
+        <!-- portofolio 2-->
+        <div class="shadow-xl">
+          <a href="">
+            <img src="images/galeri/galeri12.jpeg" class="w-full" />
+            <div class="py-3 px-5">
+              <h4 class="text-center font-bold">Galeri 2</h4>
+            </div>
+          </a>
+        </div>
+        <!-- portofolio 3-->
+        <div class="shadow-xl">
+          <a href="">
+            <img src="images/galeri/galeri11.jpeg" class="w-full" />
+            <div class="py-3 px-5">
+              <h4 class="text-center font-bold">Galeri 3</h4>
+            </div>
+          </a>
+        </div>
+        <!-- portofolio 4-->
+        <div class="shadow-xl">
+          <a href="">
+            <img src="images/galeri/galeri10.jpeg" class="w-full" />
+            <div class="py-3 px-5">
+              <h4 class="text-center font-bold">Galeri 4</h4>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="w-11/12 md:container mx-auto py-20">
+      <div class="flex space-x-10 items-start">
+        <img src="images/Logo_1.png" class="w-16 md:w-1/4" />
+        <div>
+          <p class="mb-5">Kampus STTIKOM Insan Unggul</p>
+          <h3 class="text-5xl font-bold mb-5">Tentang Sttikom Insan Unggul</h3>
+          <p class="mb-5">STTIKOM Insan Unggul adalah institusi pendidikan tinggi yang berkomitmen untuk mencetak generasi muda yang unggul di bidang teknologi informasi dan komunikasi. 
+            <br>
+            <br>
+            Kami menawarkan program studi yang relevan dengan perkembangan industri terkini, serta memberikan pengalaman pendidikan yang mengedepankan inovasi dan keunggulan akademik. Di STTIKOM Insan Unggul, kami percaya bahwa setiap mahasiswa memiliki potensi besar untuk mencapai kesuksesan, dan kami berusaha untuk memberikan dukungan terbaik dalam perjalanan akademik mereka.</p>
+          <!-- <p class="mb-5 pb-5 border-b border-blue-900">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia voluptate a dignissimos recusandae id illo dicta neque sit, magni tempore modi asperiores sapiente dolorum perferendis?</p> -->
+          <ul class="md:flex md:space-x-5">
+            <li>
+              <a href=""><i class="fa-brands fa-tiktok"></i> Tiktok</a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-instagram"></i> Instagram</a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-twitter"></i> Twitter</a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-youtube"></i> YouTube</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+    <!-- Peta Lokasi -->
+    <div class="mt-10 text-center">
+      <h3 class="text-2xl font-bold mb-5">Lokasi Kampus Kami</h3>
+      <p>Kunjungi Kami di : </p>
+      <br>
+      <div class="flex justify-center">
+        <div class="w-11/14 md:w-2/4 lg:w-1/2" style="height: 300px;">
+          <!-- Google Maps Embed -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126249.13593545847!2d106.0653467!3d-6.0017678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418e12ec0734f3:0xdd47e111a5020546!2sSTTIKOM%20Insan%20Unggul!5e0!3m2!1sid!2sid!4v1677112503142!5m2!1sid!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+
+    </section>
+
+    <br>
+    <footer class="py-5 text-center font-bold">&copy; 2024 STTIKOM Insan Unggul</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
